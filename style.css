@@ -1,0 +1,346 @@
+
+body{
+margin:0;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center !;
+background-repeat: no-repeat !;
+background-attachment: fixed;
+background-color:white;
+}
+
+nav{
+width:1440px;
+height:40px;
+margin:auto;
+border-radius:5px;
+}
+
+ul{
+list-style-type: none;
+text-align:center;
+
+}
+
+li {
+font-family: 'Josefin Sans', sans-serif;
+padding:15px;
+font-size:25px;
+display: inline;
+
+}
+a{
+text-decoration:none;
+color:black;
+}
+.menu:visited{
+color:black;}
+
+.social1{
+position:absolute;
+top:5px;
+right:5px;
+width:40px;
+height:40px;
+}
+.social2{
+position:absolute;
+top:45px;
+right:5px;
+width:40px;
+height:40px;
+}
+
+.social3{
+position:absolute;
+top:85px;
+right:5px;
+width:40px;
+height:40px;
+}
+#picwrapper{
+position:relative;
+margin:auto;
+width:1440px;
+height:750px;
+
+
+}
+
+#picwrapper .keyboard{
+width:1440px;
+height:750px;}
+
+.name{
+position:absolute;
+font-size:50px;
+bottom:140px;
+left:130px;
+color:grey;
+font-family:'Josefin Sans', sans-serif;
+}
+
+b{
+color:white;}
+
+.arrow{
+position:absolute;
+bottom:145px;
+width:40px;
+height:40px;
+left:720px;
+}
+
+.arrow:hover{
+opacity:0.4;}
+
+#contentsection{
+position:relative;
+margin:auto;
+margin-top:-5px;
+width:1040px;
+height:600px;
+background-color:white;
+}
+
+
+#contentsection .from{
+margin-left:10px;
+margin-top:10px;
+width:335px;
+height:250px;
+background-color:white;
+}
+
+.frompic{
+position:absolute;
+width:335px;
+height:250px;
+text-align:center;
+border-radius:10px;
+}
+
+.boxtext{
+position:absolute;
+font-family: 'Josefin Sans', sans-serif;
+color:black;
+font-size:50px;
+  top: 30px; left: 45px; bottom: 0; right: 0;
+}
+.frompic:hover{
+opacity:0.2;}
+
+#contentsection .OBT{
+position:absolute;
+margin-left:355px;
+margin-top:-250px;
+width:335px;
+height:250px;
+background-color:white;
+}
+.boxtext1{
+position:absolute;
+font-family: 'Josefin Sans', sans-serif;
+color:black;
+font-size:50px;
+ top: 30px; left: 55px; bottom: 0; right: 0;
+}
+.obtpic{
+position:absolute;
+width:335px;
+height:250px;
+text-align:center;
+border-radius:10px;}
+
+.obtpic:hover{
+opacity:0.2;}
+
+#contentsection .Soccer{
+position:absolute;
+margin-left:700px;
+margin-top:-250px;
+width:335px;
+height:250px;
+background-color:white;
+}
+.boxtext2{
+position:absolute;
+font-family: 'Josefin Sans', sans-serif;
+color:black;
+font-size:50px;
+ top: 30px; left: 30px; bottom: 0; right: 0;
+}
+.alianza{
+position:absolute;
+width:335px;
+height:250px;
+text-align:center;
+border-radius:10px;}
+
+.alianza:hover{
+opacity:0.2;}
+
+#contentsection .Peru{
+position:absolute;
+margin-left:10px;
+margin-top:10px;
+width:335px;
+height:250px;
+background-color:white;
+}
+.boxtext3{
+position:absolute;
+font-family: 'Josefin Sans', sans-serif;
+color:black;
+font-size:50px;
+ top: 30px; left: 110px; bottom: 0; right: 0;
+}
+.perupic{
+position:absolute;
+width:335px;
+height:250px;
+text-align:center;
+border-radius:10px;}
+
+.perupic:hover{
+opacity:0.2;}
+
+#contentsection .Photo{
+position:absolute;
+margin-left:355px;
+margin-top:10px;
+width:335px;
+height:250px;
+background-color:white;
+}
+.boxtext4{
+position:absolute;
+font-family: 'Josefin Sans', sans-serif;
+color:black;
+font-size:45px;
+ top: 35px; left: 0px; bottom: 0; right: 0;
+}
+.photo{
+position:absolute;
+width:335px;
+height:250px;
+text-align:center;
+border-radius:10px;}
+
+.photo:hover{
+opacity:0.2;}
+
+#contentsection .family{
+position:absolute;
+margin-left:700px;
+margin-top:10px;
+width:335px;
+height:250px;
+background-color:white;
+}
+.boxtext5{
+position:absolute;
+font-family: 'Josefin Sans', sans-serif;
+color:black;
+font-size:45px;
+ top: 35px; left: 80px; bottom: 0; right: 0;
+}
+.familypic{
+position:absolute;
+width:335px;
+height:250px;
+text-align:center;
+border-radius:10px;}
+
+.familypic:hover{
+opacity:0.2;}
+
+.footer{
+position:relative;
+bottom:0px;
+width:1440px;
+height:40px;
+margin:auto;
+clear:both;
+}
+
+.socialfooter1{
+position:absolute;
+width:30px;
+right:720px;
+height:30px;
+background:grey;}
+
+.socialfooter2{
+position:absolute;
+right:690px;
+width:30px;
+height:30px;
+background:grey;}
+
+.socialfooter3{
+position:absolute;
+width:30px;
+height:30px;
+right:660px;
+background:grey;}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+
+nav{
+width:1136px;
+height:40px;
+margin:auto;
+border-radius:5px;
+}
+#picwrapper{
+width:1136px;
+height:750px;
+}
+
+#picwrapper .keyboard{
+width:1136px;
+height:750px;
+}
+
+#contentsection{
+position:relative;
+margin:auto;
+margin-top:-5px;
+width:568px;
+height:600px;
+background-color:red;
+}
+#contentsection .from{
+margin-left:0px;
+margin-top:10px;
+width:568px;
+height:250px;
+background-color:white;
+}
+.frompic{
+position:absolute;
+width:568px;
+height:250px;
+text-align:center;
+border-radius:10px;
+}
+.boxtext{
+position:absolute;
+font-family: 'Josefin Sans', sans-serif;
+color:black;
+font-size:50px;
+  top: 30px; left: 45px; bottom: 0; right: 0;
+}
+#contentsection .OBT{
+position:absolute;
+margin-left:284px;
+margin-top:-250px;
+width:284px;
+height:250px;
+background-color:white;
+}
+}
