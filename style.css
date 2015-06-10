@@ -10,33 +10,48 @@ background-attachment: fixed;
 background-color:white;
 }
 
-nav{
-width:76%;
-height:40px;
+
+nav ul{
+width:1536px;
+max-height:100%;
+max-width:100%;
 margin:auto;
 border-radius:5px;
-
-}
-
-ul{
 list-style-type: none;
 text-align:center;
+overflow:hidden;
 
 }
 
-li {
+nav ul li {
 font-family: 'Josefin Sans', sans-serif;
-padding:15px;
+padding:20px;
 font-size:25px;
-display: inline;
-
+display: inline-block;
+-webkit-transition:max-height 0.4s;
+-ms-transition:max-height 0.4s;
+-moz-transition:max-height 0.4s;
+-o-transition:max-height 0.4s;
+transition:max-height 0.4s;
 }
+.handle{
+width:100%;
+background:black;
+text-align:left;
+box-sizing: border-box;
+padding:15px 10px;
+cursor:pointer;
+display:none;
+color:white;}
+
+
 a{
 text-decoration:none;
 color:black;
 }
 .menu:visited{
 color:black;}
+
 
 .social1{
 position:absolute;
@@ -63,24 +78,23 @@ height:40px;
 #picwrapper{
 position:relative;
 margin:auto;
-max-width:76%;
-min-width:76%;
-height:750px;
-
-
+width:1536px;
+max-width:100%;
+height:702px;
+max-height:100%;
 }
 
 #picwrapper .keyboard{
+position:absolute;
 width:100%;
-height:750px;}
+height:100%;}
 
 .name{
 position:absolute;
 font-size:50px;
-bottom:140px;
-left:130px;
+font-family:'Josefin Sans',sans-serif;
 color:grey;
-font-family:'Josefin Sans', sans-serif;
+padding-left:200px;
 }
 
 b{
@@ -88,10 +102,10 @@ color:white;}
 
 .arrow{
 position:absolute;
-bottom:145px;
+top:110px;
 width:40px;
 height:40px;
-left:720px;
+left:738px;
 }
 
 .arrow:hover{
@@ -100,25 +114,30 @@ opacity:0.4;}
 #contentsection{
 position:relative;
 margin:auto;
-margin-top:-5px;
+margin-top:0px;
 width:1040px;
 height:600px;
-background-color:white;
+max-width:100%;
+max-height:100%;
+
 }
 
 
 #contentsection .from{
+position:absolute;
 margin-left:10px;
-margin-top:10px;
+margin-top:0px;
 width:335px;
 height:250px;
+max-width:100%;
+max-height:100%;
 background-color:white;
 }
 
 .frompic{
 position:absolute;
-width:335px;
-height:250px;
+width:100%;
+height:100%;
 text-align:center;
 border-radius:10px;
 }
@@ -136,15 +155,17 @@ opacity:0.2;}
 #contentsection .OBT{
 position:absolute;
 margin-left:355px;
-margin-top:-250px;
+margin-top:0px;
 width:335px;
 height:250px;
+max-width:100%;
+max-height:100%;
 background-color:white;
 }
 .obtpic{
 position:absolute;
-width:335px;
-height:250px;
+width:100%;
+height:100%;
 text-align:center;
 border-radius:10px;}
 
@@ -163,11 +184,20 @@ opacity:0.2;}
 #contentsection .Soccer{
 position:absolute;
 margin-left:700px;
-margin-top:-250px;
+margin-top:0px;
 width:335px;
 height:250px;
+max-width:100%;
+max-height:100%;
 background-color:white;
 }
+.alianza{
+position:absolute;
+width:100%;
+height:100%;
+text-align:center;
+border-radius:10px;}
+
 .boxtext2{
 position:absolute;
 font-family: 'Josefin Sans', sans-serif;
@@ -175,12 +205,7 @@ color:black;
 font-size:50px;
  top: 30px; left: 30px; bottom: 0; right: 0;
 }
-.alianza{
-position:absolute;
-width:335px;
-height:250px;
-text-align:center;
-border-radius:10px;}
+
 
 .alianza:hover{
 opacity:0.2;}
@@ -188,11 +213,19 @@ opacity:0.2;}
 #contentsection .Peru{
 position:absolute;
 margin-left:10px;
-margin-top:10px;
+top:260px;
 width:335px;
 height:250px;
+max-width:100%;
+max-height:100%;
 background-color:white;
 }
+.perupic{
+position:absolute;
+width:100%;
+height:100%;
+text-align:center;
+border-radius:10px;}
 .boxtext3{
 position:absolute;
 font-family: 'Josefin Sans', sans-serif;
@@ -200,12 +233,7 @@ color:black;
 font-size:50px;
  top: 30px; left: 110px; bottom: 0; right: 0;
 }
-.perupic{
-position:absolute;
-width:335px;
-height:250px;
-text-align:center;
-border-radius:10px;}
+
 
 .perupic:hover{
 opacity:0.2;}
@@ -213,11 +241,19 @@ opacity:0.2;}
 #contentsection .Photo{
 position:absolute;
 margin-left:355px;
-margin-top:10px;
+top:260px;
 width:335px;
 height:250px;
+max-width:100%;
+max-height:100%;
 background-color:white;
 }
+.photo{
+position:absolute;
+width:100%;
+height:100%;
+text-align:center;
+border-radius:10px;}
 .boxtext4{
 position:absolute;
 font-family: 'Josefin Sans', sans-serif;
@@ -225,12 +261,7 @@ color:black;
 font-size:45px;
  top: 35px; left: 0px; bottom: 0; right: 0;
 }
-.photo{
-position:absolute;
-width:335px;
-height:250px;
-text-align:center;
-border-radius:10px;}
+
 
 .photo:hover{
 opacity:0.2;}
@@ -238,11 +269,19 @@ opacity:0.2;}
 #contentsection .family{
 position:absolute;
 margin-left:700px;
-margin-top:10px;
+margin-top:260px;
 width:335px;
 height:250px;
+max-width:100%;
+max-height:100%;
 background-color:white;
 }
+.familypic{
+position:absolute;
+width:100%;
+height:100%;
+text-align:center;
+border-radius:10px;}
 .boxtext5{
 position:absolute;
 font-family: 'Josefin Sans', sans-serif;
@@ -250,262 +289,187 @@ color:black;
 font-size:45px;
  top: 35px; left: 80px; bottom: 0; right: 0;
 }
-.familypic{
-position:absolute;
-width:335px;
-height:250px;
-text-align:center;
-border-radius:10px;}
+
 
 .familypic:hover{
 opacity:0.2;}
 
-.footer{
+@media screen and (max-width:580px){
+nav ul{
+max-height:0px;}
+
+.showing{
+max-height:20em;}
+
+nav ul  li{
+box-sizing:border-box;
+width:100%;
+padding:15px;
+text-align:left;
+}
+
+.handle{
+display:block;}
+
+.mobileicon{
+width:30px;
+height:30px;
+
+}
+#picwrapper{
 position:relative;
-bottom:0px;
-width:1440px;
-height:40px;
 margin:auto;
-clear:both;
+margin-top:10px;
+width:320px;
+max-width:100%;
+height:300px;
+max-height:100%;
 }
 
-.socialfooter1{
-position:absolute;
-width:30px;
-right:720px;
-height:30px;
-background:grey;}
+#picwrapper .keyboard{
+width:100%;
+height:100%;}
 
-.socialfooter2{
-position:absolute;
-right:690px;
-width:30px;
-height:30px;
-background:grey;}
-
-.socialfooter3{
-position:absolute;
-width:30px;
-height:30px;
-right:660px;
-background:grey;}
-/* ----------- iPhone 5 and 5S ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-  }
-
-
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-	.nav ul {
-		width: 250px;
-		padding: 0px 0;
-		position: relative;
-		border: solid 1px #aaa;
-		background: #fff url(images/icon-menu.png) no-repeat 10px 11px;
-		border-radius: 5px;
-		box-shadow: 0 1px 2px rgba(0,0,0,.3);
-	}
-	.nav li {
-		display: none; /* hide all <li> items */
-		margin: auto;
-				
-	}
-	.nav .current {
-		display: block; /* show only current <li> item */
-	}
-	.nav a {
-		display: block;
-		padding: 5px 5px 5px 32px;
-		text-align: left;
-	}
-	.nav .current a {
-		background: none;
-		color: #666;
-	}
-
-	/* on nav hover */
-	.nav ul:hover {
-		background-image: none;
-	}
-	.nav ul:hover li {
-		display: block;
-		margin: 0 0 5px;
-	}
-	.nav ul:hover .current {
-		background: url(images/icon-check.png) no-repeat 10px 7px;
-	}
-
-	/* right nav */
-	.nav.right ul {
-		left: auto;
-		right: 0;
-	}
-
-	/* center nav */
-	.nav.center ul {
-		left: 50%;
-		margin-left: -90px;
-	}
-	#picwrapper{
-	position:relative;
-	margin-top:35px;
-	width:250px;
-	height:400px;
-background:brown;
-	}
-	#picwrapper .keyboard{
-	width:250px;
-	height:125px;}
-	
-.social1{
-position:absolute;
-top:5px;
-right:0px;
-width:20px;
-height:20px;
-}
-.social2{
-position:absolute;
-top:45px;
-right:1px;
-width:20px;
-height:20px;
-}
-
-.social3{
-position:absolute;
-top:85px;
-right:1px;
-width:20px;
-height:20px;
-}
 .name{
 position:absolute;
-bottom:510px;
-font-size:10px;
-left:0px;
-
-font-family:'Josefin Sans', sans-serif;
+top:83px;
+font-size:30px;
+font-family:'Josefin Sans',sans-serif;
+color:grey;
+padding:0px;
+text-align:center;
 }
 .arrow{
 position:absolute;
-bottom:500px;
-left:120px;
-width:20px;
-height:20px;
+top:110px;
+width:40px;
+height:40px;
+left:0px;
+}
+#contentsection{
+position:relative;
+margin:auto;
+margin-top:5px;
+width:320px;
+height:460px;
+max-width:100%;
+max-height:100%;
 
 }
-	#contentsection{
-	position:relative;
-	margin:auto;
-	margin-top:-5px;
-	width:250px;
-	height:310px;
-	
-	}
-	#contentsection .from{
-	margin-left:5px;
-	margin-top:10px;
-	width:117px;
-	height:110px;
-	background-color:white;
-	}
-	.frompic{
-	position:absolute;
-	width:117px;
-	height:110px;
-	text-align:center;
-	border-radius:10px;
-	}
-	.boxtext{
-	position:absolute;
-	font-family: 'Josefin Sans', sans-serif;
-	color:black;
-	font-size:15px;
-	  top: 30px; left: 20px; bottom: 0; right: 0;
-	}
-	.frompic:hover{
-	opacity:0.2;}
 
-	#contentsection .OBT{
-	position:absolute;
-	margin-left:128px;
-	margin-top:-110px;
-	width:117px;
-	height:110px;
-	background-color:white;
-	}
-	.obtpic{
-	position:absolute;
-	width:117px;
-	height:110px;
-	text-align:center;
-	border-radius:10px;}
-	.boxtext1{
-	position:absolute;
-	font-family: 'Josefin Sans', sans-serif;
-	color:black;
-	font-size:15px;
-	 top: 30px; left: 30px; bottom: 0; right: 0;
-	}
-	.obtpic:hover{
-	opacity:0.2;}
+
+
+#contentsection .from{
+position:absolute;
+margin-left:5px;
+margin-top:0px;
+width:152.5px;
+height:150px;
+max-width:100%;
+max-height:100%;
+background-color:white;
+}
+
+.frompic{
+position:absolute;
+width:100%;
+height:100%;
+text-align:center;
+border-radius:10px;
+}
+
+.boxtext{
+position:absolute;
+font-family: 'Josefin Sans', sans-serif;
+color:black;
+font-size:20px;
+  top: 30px; left: 25px; bottom: 0; right: 0;
+}
+.frompic:hover{
+opacity:0.2;}
+
+#contentsection .OBT{
+position:absolute;
+margin-left:162.5px;
+margin-top:0px;
+width:152.5px;
+height:150px;
+max-width:100%;
+max-height:100%;
+background-color:white;
+}
+.obtpic{
+position:absolute;
+width:100%;
+height:100%;
+text-align:center;
+border-radius:10px;}
+
+.boxtext1{
+position:absolute;
+font-family: 'Josefin Sans', sans-serif;
+color:black;
+font-size:20px;
+ top: 30px; left: 40px; bottom: 0; right: 0;
+}
+
+
+.obtpic:hover{
+opacity:0.2;}
+
 #contentsection .Soccer{
 position:absolute;
 margin-left:5px;
-margin-top:5px;
-width:117px;
-height:110px;
+margin-top:155px;
+width:152.5px;
+height:150px;
+max-width:100%;
+max-height:100%;
 background-color:white;
 }
+.alianza{
+position:absolute;
+width:100%;
+height:100%;
+text-align:center;
+border-radius:10px;}
+
 .boxtext2{
 position:absolute;
 font-family: 'Josefin Sans', sans-serif;
 color:black;
-font-size:15px;
- top: 30px; left: 15px; bottom: 0; right: 0;
+font-size:20px;
+ top: 30px; left: 25px; bottom: 0; right: 0;
 }
-.alianza{
-position:absolute;
-width:117px;
-height:110px;
-text-align:center;
-border-radius:10px;}
+
 
 .alianza:hover{
 opacity:0.2;}
 
 #contentsection .Peru{
 position:absolute;
-margin-left:130px;
-margin-top:5px;
-width:117px;
-height:110px;
+margin-left:162.5px;
+top:155px;
+width:152.5px;
+height:150px;
+max-width:100%;
+max-height:100%;
 background-color:white;
 }
+.perupic{
+position:absolute;
+width:100%;
+height:100%;
+text-align:center;
+border-radius:10px;}
 .boxtext3{
 position:absolute;
 font-family: 'Josefin Sans', sans-serif;
 color:black;
-font-size:15px;
- top: 30px; left: 40px; bottom: 0; right: 0;
+font-size:20px;
+ top: 30px; left: 55px; bottom: 0; right: 0;
 }
-.perupic{
-position:absolute;
-width:117px;
-height:110px;
-text-align:center;
-border-radius:10px;}
+
 
 .perupic:hover{
 opacity:0.2;}
@@ -513,279 +477,61 @@ opacity:0.2;}
 #contentsection .Photo{
 position:absolute;
 margin-left:5px;
-margin-top:120px;
-width:117px;
-height:110px;
+top:310px;
+width:152.5px;
+height:150px;
+max-width:100%;
+max-height:100%;
 background-color:white;
 }
+.photo{
+position:absolute;
+width:100%;
+height:100%;
+text-align:center;
+border-radius:10px;}
 .boxtext4{
 position:absolute;
 font-family: 'Josefin Sans', sans-serif;
 color:black;
-font-size:15px;
- top: 35px; left: 3px; bottom: 0; right: 0;
+font-size:20px;
+ top: 35px; left: 0px; bottom: 0; right: 0;
 }
-.photo{
-position:absolute;
-width:117px;
-height:110px;
-text-align:center;
-border-radius:10px;}
+
 
 .photo:hover{
 opacity:0.2;}
 
 #contentsection .family{
 position:absolute;
-margin-left:130px;
-margin-top:120px;
-width:117px;
-height:110px;
+margin-left:162.5px;
+top:50px;
+width:152.5px;
+height:150px;
+max-width:100%;
+max-height:100%;
 background-color:white;
 }
+.familypic{
+position:absolute;
+width:100%;
+height:100%;
+text-align:center;
+border-radius:10px;}
+
 .boxtext5{
 position:absolute;
 font-family: 'Josefin Sans', sans-serif;
 color:black;
-font-size:15px;
- top: 35px; left: 35px; bottom: 0; right: 0;
+font-size:20px;
+ top: 35px; left: 0px; bottom: 0; right: 0;
 }
-.familypic{
-position:absolute;
-width:117px;
-height:110px;
-text-align:center;
-border-radius:10px;}
+
 
 .familypic:hover{
 opacity:0.2;}
-
-.footer{
-position:relative;
-bottom:0px;
-width:250px;
-height:40px;
-margin:auto;
-clear:both;
-background:blue;
 }
 
-.socialfooter1{
-position:absolute;
-width:30px;
-height:30px;
-background:grey;}
-
-.socialfooter2{
-position:absolute;
-width:30px;
-height:30px;
-background:grey;}
-
-.socialfooter3{
-position:absolute;
-width:30px;
-height:30px;
-background:grey;}
-	}
-/* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-}
-/* ----------- iPhone 6 ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-.nav ul {
-		width: 290px;
-		padding: 0px 0;
-		position: relative;
-		border: solid 1px #aaa;
-		background: #fff url(images/icon-menu.png) no-repeat 10px 11px;
-		border-radius: 5px;
-		box-shadow: 0 1px 2px rgba(0,0,0,.3);
-	}
-	.nav li {
-		display: none; /* hide all <li> items */
-		margin: auto;
-				
-	}
-	.nav .current {
-		display: block; /* show only current <li> item */
-	}
-	.nav a {
-		display: block;
-		padding: 5px 5px 5px 32px;
-		text-align: left;
-	}
-	.nav .current a {
-		background: none;
-		color: #666;
-	}
-
-	/* on nav hover */
-	.nav ul:hover {
-		background-image: none;
-	}
-	.nav ul:hover li {
-		display: block;
-		margin: 0 0 5px;
-	}
-	.nav ul:hover .current {
-		background: url(images/icon-check.png) no-repeat 10px 7px;
-	}
-
-	/* right nav */
-	.nav.right ul {
-		left: auto;
-		right: 0;
-	}
-
-	/* center nav */
-	.nav.center ul {
-		left: 50%;
-		margin-left: -90px;
-	}
-	#picwrapper{
-	position:relative;
-	margin-top:35px;
-	width:290px;
-	height:600px;
-	background:blue;
-	}
-	#picwrapper .keyboard{
-	width:290px;
-	height:150px;}
-	
-	.social1{
-	position:absolute;
-	top:5px;
-	right:0px;
-	width:20px;
-	height:20px;
-	}
-	.social2{
-	position:absolute;
-	top:45px;
-	right:1px;
-	width:20px;
-	height:20px;
-	}
-
-	.social3{
-	position:absolute;
-	top:85px;
-	right:1px;
-	width:20px;
-	height:20px;
-	}
-	.name{
-	position:absolute;
-	font-size:28px;
-	bottom:110px;
-	left:0px;
-	color:grey;
-	font-family:'Josefin Sans', sans-serif;
-	}
-	#contentsection{
-	position:relative;
-	margin:auto;
-	margin-top:-5px;
-	width:290px;
-	height:450px;
-	background-color:red;
-	}
-	#contentsection .from{
-	margin-left:5px;
-	margin-top:10px;
-	width:125px;
-	height:125px;
-	background-color:white;
-	}
-	.frompic{
-	position:absolute;
-	width:125px;
-	height:125px;
-	text-align:center;
-	border-radius:10px;
-	}
-	.boxtext{
-	position:absolute;
-	font-family: 'Josefin Sans', sans-serif;
-	color:black;
-	font-size:15px;
-	  top: 30px; left: 30px; bottom: 0; right: 0;
-	}
-	.frompic:hover{
-	opacity:0.2;}
-
-	#contentsection .OBT{
-	position:absolute;
-	margin-left:140px;
-	margin-top:-125px;
-	width:125px;
-	height:125px;
-	background-color:white;
-	}
-	.obtpic{
-	position:absolute;
-	width:125px;
-	height:125px;
-	text-align:center;
-	border-radius:10px;}
-	.boxtext1{
-	position:absolute;
-	font-family: 'Josefin Sans', sans-serif;
-	color:black;
-	font-size:15px;
-	 top: 30px; left: 30px; bottom: 0; right: 0;
-	}
-	.obtpic:hover{
-	opacity:0.2;}
 
 
-}
 
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-
-}
-
-/* ----------- iPhone 6+ ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-}

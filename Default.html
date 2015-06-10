@@ -4,46 +4,55 @@
 <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+
 <Title>
 Miguel Pacheco 
 </title>
 
 <head>
+<meta charset="uft-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-	<Nav class="nav">
-		<ul>
-			<li class="current"><a class="menu" href="">about</a></li>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	</head>
+<body>
+<Nav>
+
+		<ul class="showing">
+			<li><a href="">about</a></li>
 			<li><a href="">bio</a></li>
 			<li><a href="">portfolio</a></li>
 			<li><a href="">soccer</a></li>
 			<li><a href="">photography</a></li>
+		
 		</ul>
+		<div class="handle"><img class="mobileicon"src="menuicon.png"></div>
 		</nav>
-	</head>
-
-<body>
 <div id="picwrapper">
-<p class="name">Hi, I am Miguel <a href=""><b>web designer</b></a>, <a href=""> <b>instructor</b></a>, and  <a href=""><b>soccer coach</b></a>.</p> 
-	<a href="#contentsection"><img class="arrow" src="arrow.png" alt=""></a>
 	<img class="keyboard"src="keyboard.png">
+	<p class="name">Hi, I am Miguel <a href=""><b>web designer</b></a>, <a href=""> <b>instructor</b></a>, and  <a href=""><b>soccer coach</b></a>.</p> 
+	<a href="#contentsection"><img class="arrow" src="arrow.png" alt=""></a>
 	<img class="social1" src="facebook logo.png" alt="">
 	<img class="social2" src="instagram logo.png" alt="">
 	<img class="social3" src="twitter logo.png" alt="">
-	
-	<div id="contentsection">
+</div>
+<div id="contentsection">
 	<div class="from"><p class="boxtext">BROOKLYN</p><img class="frompic" src="frompic.jpg"></div>
 	<div class="OBT"><p class="boxtext1">OBT JOBS</p><img class="obtpic" src="obt.jpg"></div>
 	<div class="Soccer"><p class="boxtext2">ALIANZA FC</p><img class="alianza" src="soccer.jpg"></div>
 	<div class="Peru"><p class="boxtext3">PERU</p><img class="perupic" src="peru.jpg"></div>
 	<div class="Photo"><p class="boxtext4">PHOTOGRAPHY</p><img class="photo" src="photo.jpg"></div>
 	<div class="family"><p class="boxtext5">FAMILY</p><img class="familypic" src="family.jpg"></div>
-	</div>
-	<div class="footer">
-		<img class="socialfooter1" src="facebook logo.png" alt="">
-		<img class="socialfooter2" src="instagram logo.png" alt="">
-		<img class="socialfooter3" src="twitter logo.png" alt="">
-	</div>
-	</div>
+</div>
+
+<script>
+	$('.handle').on('click', function(){
+		$('nav ul').toggleClass('showing');
+		});
+</script>
+	
 
 </body>
+
 </html>
