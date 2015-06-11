@@ -14,21 +14,21 @@ Miguel Pacheco
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-	</head>
-<body>
 <Nav>
 
 		<ul class="showing">
-			<li><a href="">about</a></li>
+			<li><a href="default.html" >about</a></li>
 			<li><a href="">bio</a></li>
 			<li><a href="">portfolio</a></li>
 			<li><a href="">soccer</a></li>
 			<li><a href="">photography</a></li>
 		
 		</ul>
-		<div class="handle"><img class="mobileicon"src="menuicon.png"></div>
-		</nav>
+		<div class="handle"><img class="mobileicon"src="menuicon.png"><p class="mobilename">Menu</p></div>
+		</Nav>
+	</head>
+<body>
+
 <div id="picwrapper">
 	<img class="keyboard"src="keyboard.png">
 	<p class="name">Hi, I am Miguel <a href=""><b>web designer</b></a>, <a href=""> <b>instructor</b></a>, and  <a href=""><b>soccer coach</b></a>.</p> 
@@ -46,13 +46,13 @@ Miguel Pacheco
 	<div class="family"><p class="boxtext5">FAMILY</p><img class="familypic" src="family.jpg"></div>
 </div>
 
+<div id="footer"><a href="#"><p class="footername">back to top</p><img class="footarrow"src="arrowup.png"></a></div>
+
 <script>
 	$('.handle').on('click', function(){
 		$('nav ul').toggleClass('showing');
 		});
 </script>
-	
-
 </body>
 
 </html>
