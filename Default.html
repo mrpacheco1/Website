@@ -16,7 +16,7 @@ Miguel Pacheco
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <Nav>
 
-		<ul class="showing">
+		<ul>
 			<li><a href="default.html" >about</a></li>
 			<li><a href="">bio</a></li>
 			<li><a href="">portfolio</a></li>
@@ -49,9 +49,11 @@ Miguel Pacheco
 <div id="footer"><a href="#"><p class="footername">back to top</p><img class="footarrow"src="arrowup.png"></a></div>
 
 <script>
+$(document).ready(function () {
 	$('.handle').on('click', function(){
-		$('nav ul').toggleClass('showing');
-		});
+		$('nav ul').toggleClass('show');
+		});		
+});
 </script>
 </body>
 
