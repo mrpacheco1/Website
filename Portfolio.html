@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="CSS/portfoliostyle.css">
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+<Title>
+Miguel | Bio 
+</title>
+<head>
+<meta charset="uft-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<Nav>
+
+		<ul>
+			<li><a href="default.html" >about</a></li>
+			<li><a href="bio.html">bio</a></li>
+			<li><a href="portfolio.html">portfolio</a></li>
+			<li><a href="soccer.html">soccer</a></li>
+			<li><a href="photography.html">photography</a></li>
+		
+		</ul>
+		<div class="handle"><img class="mobileicon"src="menuicon.png"><p class="mobilename">Menu</p></div>
+		</Nav>
+	</head>
+<body>
+
+
+
+<div id="footer"><a href="#"><p class="footername">back to top</p><img class="footarrow"src="arrowup.png"></a></div>
+<script>
+$(document).ready(function () {
+	$('.handle').on('click', function(){
+		$('nav ul').toggleClass('show');
+		});		
+});
+</script>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="CSS/biostyle.css">
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+<Title>
+Miguel | Bio 
+</title>
+<head>
+<meta charset="uft-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<Nav>
+
+		<ul>
+			<li><a href="default.html" >about</a></li>
+			<li><a href="bio.html">bio</a></li>
+			<li><a href="portfolio.html">portfolio</a></li>
+			<li><a href="soccer.html">soccer</a></li>
+			<li><a href="photography.html">photography</a></li>
+		
+		</ul>
+		<div class="handle"><img class="mobileicon"src="menuicon.png"><p class="mobilename">Menu</p></div>
+		</Nav>
+	</head>
+<body>
+
+<div id="wrapper">
+	<div id="biopic"><img src="Images/biopicture.jpg"></div><div id="text"> I am web designer, instructor and soccer coach in brooklyn, NY. I have over 5 years teaching computer systems, and over 10 years working in the IT field. There is nothing I enjoy the most than seeing my students succeed. Currently I teach web design and web development at Opportunities for a Better Tomorrow in Bushwick Brooklyn.I also coach a soccer team & do photography as one of my favorite hobbies.</div>
+	<img class="social1" src="facebook logo.png" alt="">
+	<img class="social2" src="instagram logo.png" alt="">
+	<img class="social3" src="twitter logo.png" alt="">
+
+	</div>
+<div id="bodywrapper">
+	<div id="sidebar">
+		<div id="skills">
+			<p class="title">Highlights</p>
+			<div id="skilllist">
+				<ul>
+					<li>HTMl & CSS</li>
+					<li>Javascript</li>
+					<li>Microsoft Office </li>
+					<li>Jquery</li>
+					<li>curriculum development</li>
+					<li>Responsive Design</li>
+					<li>logo & Design</li>
+					<li>Adobe CS6</li>
+				</ul>
+			</div>
+		</div>
+		<div id="links">
+			<p class="title">Links</p>
+			<div id="skilllist">
+				<ul>
+					<li>Photography</li>
+					<li>Soccer</li>
+					<li>Portfolio </li>
+					<li>OBT Jobs </li>
+				</ul>
+			</div>	
+		</div>
+	</div>
+</div>
+	<div id="footer"><a href="#"><p class="footername">back to top</p><img class="footarrow"src="arrowup.png"></a></div>
+<script>
+$(document).ready(function () {
+	$('.handle').on('click', function(){
+		$('nav ul').toggleClass('show');
+		});		
+});
+</script>
+</body>
+
+</html>
