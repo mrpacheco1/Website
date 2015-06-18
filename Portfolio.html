@@ -13,8 +13,10 @@ Miguel | Bio
 <link href="stylesheets/jquery.lighter.css" rel="stylesheet" type="text/css" />
 <meta charset="uft-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+        <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
 <Nav>
 
 		<ul>
@@ -31,7 +33,7 @@ Miguel | Bio
 <body>
 <div id="wrapper">
 
-	<div class="box1"><a href=""><img src="Images/picbox1.png"></a></div><div class="boxtext1"></div>
+	<div class="box1"  ><a class="fancybox" href="Images/picbox1.png"><img src="Images/picbox1.png" alt="" /></a></div><div class="boxtext1"></div>
 	<div class="box2"></div><div class="boxtext2"></div>
 	<div class="box3"></div><div class="boxtext3"></div>
 	<a href=""><div class="pgbutton1">1</div></a>
@@ -48,8 +50,15 @@ $(document).ready(function () {
 	$('.handle').on('click', function(){
 		$('nav ul').toggleClass('show');
 		});		
+
 });
+
 </script>
+ <script>
+        $(document).ready(function() {
+            $('.fancybox').fancybox();
+        });
+    </script>
 </body>
 
 </html>
