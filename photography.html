@@ -5,13 +5,16 @@
 <link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 <Title>
-Miguel | Bio 
+Miguel | Photography
 </title>
 <head>
 <meta charset="uft-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+        <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
 <Nav>
 
 		<ul>
@@ -26,9 +29,20 @@ Miguel | Bio
 		</Nav>
 	</head>
 <body>
+<div class="boxtext1"><p Class="text">Photography Portfolio</p></div>
+<div id="wrapper">
 
-
-
+	<div class="box1"  ><a class="fancybox" href="Images/ppicbox1.jpg"><img src="Images/ppicbox1.jpg" alt="" /></a></div>
+	<div class="box2"><a class="fancybox" href="Images/ppicbox2.jpg"><img src="Images/ppicbox2.jpg" alt="" /></a></div>
+	<div class="box3"><a class="fancybox" href="Images/ppicbox3.jpg"><img src="Images/ppicbox3.jpg" alt="" /></a></div>
+	<div class="box4"><a class="fancybox" href="Images/ppicbox4.jpg"><img src="Images/ppicbox4.jpg" alt="" /></a></div>
+	<div class="box5"><a class="fancybox" href="Images/ppicbox5.jpg"><img src="Images/ppicbox5.jpg" alt="" /></a></div>
+	<div class="box6"><a class="fancybox" href="Images/ppicbox6.jpg"><img src="Images/ppicbox6.jpg" alt="" /></a></div>
+	
+<img class="social1" src="facebook logo.png" alt="">
+	<img class="social2" src="instagram logo.png" alt="">
+	<img class="social3" src="twitter logo.png" alt="">
+</div>
 <div id="footer"><a href="#"><p class="footername">back to top</p><img class="footarrow"src="arrowup.png"></a></div>
 <script>
 $(document).ready(function () {
@@ -37,6 +51,11 @@ $(document).ready(function () {
 		});		
 });
 </script>
+<script>
+        $(document).ready(function() {
+            $('.fancybox').fancybox();
+        });
+    </script>
 </body>
 
 </html>

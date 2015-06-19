@@ -47,6 +47,73 @@ a{
 text-decoration:none;
 color:black;
 }
+img{
+width:100%;
+height:100%;
+border-radius:5px;
+}
+#wrapper{
+position:relative;
+margin:auto;
+width:1040px;
+height:600px;
+margin-top:10px;
+max-width:100%;
+max-height:100%;
+border-bottom:2px solid;
+
+}
+.text{
+
+font-family: 'Josefin Sans', sans-serif;
+font-size:22px;
+max-width:100%;
+max-height:100%;
+text-align:center;
+}
+
+#wrapper .box1{Position:absolute;top:30px;left:20px; width:305px;height:250px;}
+#wrapper .box2{position:absolute;background:;top:30px;left:335px;width:305px;height:250px;}
+#wrapper .box3{position:absolute;background:;top:30px;left:650px;width:305px;height:250px;}
+#wrapper .box4{Position:absolute;background:;top:310px;left:20px; width:305px;height:250px;}
+#wrapper .box5{position:absolute;background:;top:310px;left:335px;width:305px;height:250px;}
+#wrapper .box6{position:absolute;background:;top:310px;left:650px;width:305px;height:250px;}
+.boxtext1{position:relative;background:;top:0px;margin:auto;width:305px;height:30px;text-align:center; }
+#wrapper .box1:hover{opacity:0.4;}
+#wrapper .box2:hover{opacity:0.4;}
+#wrapper .box3:hover{opacity:0.4;}
+#wrapper .box4:hover{opacity:0.4;}
+#wrapper .box5:hover{opacity:0.4;}
+#wrapper .box6:hover{opacity:0.4;}
+
+.social1{
+position:absolute;
+top:30px;
+right:5px;
+width:40px;
+height:40px;
+background:black;
+border-radius:100%
+}
+.social2{
+position:absolute;
+top:80px;
+right:5px;
+width:40px;
+height:40px;
+background:black;
+border-radius:100%
+}
+
+.social3{
+position:absolute;
+top:130px;
+right:5px;
+width:40px;
+height:40px;
+background:black;
+border-radius:100%
+}
 #footer{
 background:red;
 width:100%;
@@ -101,6 +168,41 @@ width:30px;
 height:30px;
 
 }
+
+#wrapper{
+position:relative;
+margin:auto;
+width:320px;
+height:1530px;
+margin-top:10px;
+max-width:100%;
+max-height:100%;
+border-bottom:2px solid;
+
+}
+.text{
+
+font-family: 'Josefin Sans', sans-serif;
+font-size:22px;
+max-width:100%;
+max-height:100%;
+text-align:center;
+}
+
+#wrapper .box1{Position:absolute;top:0px;left:0px; width:320px;height:250px;}
+#wrapper .box2{position:absolute;background:;top:255px;left:0px;width:320px;height:250px;}
+#wrapper .box3{position:absolute;background:;top:510px;left:0px;width:320px;height:250px;}
+#wrapper .box4{Position:absolute;background:;top:765px;left:0px; width:320px;height:250px;}
+#wrapper .box5{position:absolute;background:;top:1020px;left:0px;width:320px;height:250px;}
+#wrapper .box6{position:absolute;background:;top:1275px;left:0px;width:320px;height:250px;}
+.boxtext1{position:relative;background:;top:0px;margin:auto;width:305px;height:30px;text-align:center; }
+#wrapper .box1:hover{opacity:1;}
+#wrapper .box2:hover{opacity:1;}
+#wrapper .box3:hover{opacity:1;}
+#wrapper .box4:hover{opacity:1;}
+#wrapper .box5:hover{opacity:1;}
+#wrapper .box6:hover{opacity:1;}
+
 #footer{
 position:relative;
 margin-top:10px;
@@ -148,6 +250,40 @@ display:inline;}
 .mobileicon{
 width:30px;
 height:30px;}
+
+#wrapper{
+position:relative;
+margin:auto;
+width:630px;
+height:2320px;
+margin-top:10px;
+max-width:100%;
+max-height:100%;
+border-bottom:2px solid;
+
+}
+.text{
+
+font-family: 'Josefin Sans', sans-serif;
+font-size:22px;
+max-width:100%;
+max-height:100%;
+text-align:center;
+}
+
+#wrapper .box1{Position:absolute;top:0px;left:0px; width:630px;height:380px;}
+#wrapper .box2{position:absolute;background:;top:385px;left:0px;width:630px;height:380px;}
+#wrapper .box3{position:absolute;background:;top:770px;left:0px;width:630px;height:380px;}
+#wrapper .box4{Position:absolute;background:;top:1155px;left:0px; width:630px;height:380px;}
+#wrapper .box5{position:absolute;background:;top:1540px;left:0px;width:630px;height:380px;}
+#wrapper .box6{position:absolute;background:;top:1925px;left:0px;width:630px;height:380px;}
+.boxtext1{position:relative;background:;top:0px;margin:auto;width:305px;height:30px;text-align:center; }
+#wrapper .box1:hover{opacity:1;}
+#wrapper .box2:hover{opacity:1;}
+#wrapper .box3:hover{opacity:1;}
+#wrapper .box4:hover{opacity:1;}
+#wrapper .box5:hover{opacity:1;}
+#wrapper .box6:hover{opacity:1;}
 
 #footer{
 position:relative;
